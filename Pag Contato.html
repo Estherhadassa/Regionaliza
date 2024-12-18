@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Links website</title>
+    <style>
+      html {
+        min-height: 100%;
+      }
+
+      body {
+        background-image: url(comunidade-de-pessoas-que-trabalham-juntas-na-agricultura-para-cultivar-alimentos_23-2151205703.jpg);
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+        font-family: 'Syne', sans-serif; 
+      }
+
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .image-container {
+        text-align: center;
+        width: 100%;
+      }
+
+      .w3-yellow, .w3-hover-purple:hover {
+        color: rgba(40, 42, 53)!important;
+        background-color: rgba(255, 244, 163, 0.9) !important;
+      }
+
+      /* Estilo do formulário */
+      .form-container {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 30px;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .form-container input, .form-container textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+      .form-container button {
+        padding: 12px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .form-container button:hover {
+        background-color: #45a049;
+      }
+    </style>
+
+      <!-- Navbar -->
+      <nav
+      class="navbar navbar-expand-sm navbar-light"
+      style="background-color: #416E3A; border-bottom: 5px solid white;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="LOGO-REGIONALIZA-fundo-verde.png"
+            alt="Logo"
+            width="50"
+            overflow="hidden"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" href="servicos.html">Serviços</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="Pagina_Sobre Nos.html">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pag Contato.html">Contato</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+  </head>
+
+  <body class="w3-white">
+    <div class="image-container">
+      <img src="src/img/computador.jpg" class="w3-margin" alt="Person" max-width="100%" height="150px" style="border-radius: 50%;">
+      
+      <div class="w3-margin">
+        <p class="w3-large w3-text-black"><strong>CONTATE-NOS!</strong></p>
+        <p class="w3-tag w3-text-white">Esperamos seu contato!</p>
+      </div>
+      
+      <!-- Formulário de Contato -->
+      <div class="form-container">
+        <form id="contact-form">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+      </div>
+    </div>
+    
+    <hr style="color: aliceblue;">
+    <footer style="background-color: #416E3A;">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Coluna dos Ícones de Redes Sociais, alinhados mais à esquerda -->
+          <div class="col-md-6 d-flex justify-content-start ps-md-5 align-items-center">
+            <div class="social-media-icons">
+              <a style="padding-left: 100px;" href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          
+          <!-- Coluna de Contato, alinhada mais à direita e justificada -->
+        <div class="col-md-6 text-md-end pe-md-9  d-flex flex-column align-items-end">
+          <div style="text-align: justify; width: 80%; display: inline-block;">
+            <h5 style="padding-left: 150px; color: aliceblue;">Contato:</h5>
+            <p href="#" style="padding-left: 150px; color: aliceblue;" >Email: ifacesther@gmail.com</p>
+            <p href="#" style="padding-left: 150px; color: aliceblue;" >Telefone: (68) 99941-8980</p>
+            <p href="#" style="padding-left: 150px; color: aliceblue;">Endereço: Rua Abiu, 125</p>
+          </div>
+      </div>
+  
+        </div>
+      </div>
+    
+      <style>
+        .social-media-icons .social-icon {
+          color: white;          /* Ícones brancos */
+          font-size: 1.5rem;     /* Tamanho maior */
+          margin: 0 10px;        /* Espaçamento entre ícones */
+          transition: color 0.3s;
+        }
+    
+        .social-media-icons .social-icon:hover {
+          color: #00aced;        /* Cor de destaque ao passar o mouse */
+        }
+      </style>
+    </footer>
+    
+    <script>
+      // Adicionando evento de submit no formulário
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();  // Previne o comportamento padrão do formulário (envio)
+        window.location.href = 'obrigado.html';  // Redireciona para a página de agradecimento
+      });
+    </script>
+  </body>
+</html>
